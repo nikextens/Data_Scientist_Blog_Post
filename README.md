@@ -1,6 +1,6 @@
 # Data_Scientist_Blog_Post
 
-This project is part of my Data Sciene Nanodegree project by Udacity.
+This project is part of my Data Sciene Nanodegree project by Udacity. There is also a respective blog post on [Medium](https://medium.com/@n.van.bracht/three-findings-that-will-make-you-master-your-next-booking-on-airbnb-ebcc5d85cd70)
 
 ## Libraries
 The developer needs to import the following libraries to run the analysis:
