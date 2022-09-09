@@ -6,7 +6,7 @@ The developer needs to import the following libraries to run the analysis:
 - numpy 
 - pandas 
 - matplotlib
-- sklearn.linear_model import LinearRegression
+- sklearn
 - seaborn 
 - datetime
 
