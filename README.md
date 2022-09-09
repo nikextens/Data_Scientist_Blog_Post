@@ -12,6 +12,15 @@ The developer needs to import the following libraries to run the analysis:
 - datetime
 
 ## Motivation for project
+When looking at different dataset for that project, the AirBnB dataset caught my attention since I personally often use it when being on vacation - and I even used AirBnB when spending time in Seattle.
+
+The following three business questions motivated me to proceed with my analysis:
+
+1. Which features are associated with higher prices?
+2. Is it possible to predict the prices based on the given features?
+3. How did the availability by property type develop over time?
+
+The goal of my analysis is to eventually provide insights for both hosts and travelers active on AirBnB.
 
 ## Dataset
 The analysis uses the open dataset [Seattle AirBnB 2016](https://www.kaggle.com/datasets/airbnb/seattle) provided by Keggle. It includes the following three files.
