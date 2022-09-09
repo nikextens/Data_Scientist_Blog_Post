@@ -33,5 +33,16 @@ The data cover a date range between 01/04/2016 and 01/02/2017 and include 84849 
 
 ## Result summary
 
+- I found out that there are a few features that significantly drive the price, mainly related to the size of the apartment.
+- Pricing is not arbitrary, and I can build a model that reproduces the pricing based on selected features as well as predicts pricing reasonably. Feel free to feed my model with your idea of a nice stay and you will get a price!
+- Apartment availabilities do not show clear seasonality but the data recommend to travel off-season.
+
+Please check out my [notebook](https://github.com/nikextens/Data_Scientist_Blog_Post/blob/main/Udacity_Data_Scientist_Project1.ipynb) for the detailed findings!
+
+My research is not without limitations. The findings here are observational, not the result of a formal study. 
+- Depending on your priorities when staying abroad the potentially relevant features might change. 
+- Furthermore, I applied a rather simple model and did not compare its performance with other models. It only makes sense to also use additional models on top of linear regression to predict prices (e.g., random forest or voting ensemble).
+- The data also includes various categorical variables that include continuous text in form of comments. Given that, the analysis would benefit from introducing Natural Language Processing (NLP). NLP could process the comments and convert them, e.g., into a numerical sentiment.
+
 ## Acknowledgments
 Although the data are provided by Keggle, they are part of Airbnb Inside, and the original source can be found [here](http://insideairbnb.com/get-the-data/).
